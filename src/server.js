@@ -76,4 +76,4 @@ app.get("/list", async (req, res) => {
   return res.send(lista);
 });
 
-app.listen(3030 || process.env.PORT);
+app.listen(process.env.PORT || 3030);
